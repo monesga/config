@@ -1,0 +1,15 @@
+_HiStOrY_V2_
+[cal].
+?-\040today(TodaysDate),\012\040\040\040\040\040\040\040\040\040event(ID,\040Title,\040TodaysDate,\040_,\040_,\040_,\040_,\040scheduled,\040_).
+today(TodaysDate),\012\040\040\040\040\040\040\040\040\040event(ID,\040Title,\040TodaysDate,\040_,\040_,\040_,\040_,\040scheduled,\040_).
+event_in_the_past(3).
+event_conflict(ID1,\040ID2).
+propose_conflict_solution(1,\0402,\040Suggestion).
+shell('clear').
+halt.
+pack_install(lsp_server).
+halt.
+shell('clear').
+use_module(library(lsp_server)).
+pack_rebuild(lsp_server).
+halt.
